@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+h1{
+    color: white;
+}
+
+a{
+    color: white;
+}
+p{
+    color: wheat;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --var-cor-primaria: #00030C;
+    --var-cor-secundaria: #FFFF;
+    --var-cor-terciaria: #167bf7;
+    --var-cor-quartenaria: #C0C0C0;
+
+}
+
+body{
+    background-color: var(--var-cor-primaria);
+}
+
+/*Para incluir a imagem criei a class principal, adicionei a imagem */
+.principal{    
+    background-image: url("../images/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain ;
+    background-position: right center;
+    
+  }
+/*Para configurar a altura criei a class container e defini 100%vh para preencher*/
+.container{
+    height: 100vh;
+    
+}
