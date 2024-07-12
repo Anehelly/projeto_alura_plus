@@ -1,42 +1,97 @@
 @charset "UTF-8";
 
-h1{
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --var-cor-fundo: #00030c;
+    --var-branco-principal: #ffffff;
+    --var-azul: #167bf7;
+    --var-cinza-paragrafo: #c7c8c9;
+
+    --var-fonte-primaria:"Inter", sans-serif;
 }
 
-a{
-    color: white;
-}
-p{
-    color: wheat;
-}
 *{
     margin: 0;
     padding: 0;
 }
 
-:root{
-    --var-cor-primaria: #00030C;
-    --var-cor-secundaria: #FFFF;
-    --var-cor-terciaria: #167bf7;
-    --var-cor-quartenaria: #C0C0C0;
-
-}
-
 body{
-    background-color: var(--var-cor-primaria);
+    background-color: var(--var-cor-fundo);
+
 }
 
-/*Para incluir a imagem criei a class principal, adicionei a imagem */
-.principal{    
-    background-image: url("../images/Background.png");
+.principal{/*esta alinhando somente a imagem de fundo*/   
+    background-image: url(../images/Background.png);   
     background-repeat: no-repeat;
-    background-size: contain ;
+    background-size: contain;    
     background-position: right center;
-    
-  }
-/*Para configurar a altura criei a class container e defini 100%vh para preencher*/
+    color: white;
+}
+
 .container{
     height: 100vh;
+    display: flex;
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 798px;
     
+}
+
+.container_conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 588px;
+    height: 431px;
+    
+}
+
+.container_titulo{
+    text-align: center;
+    font-family: var(--var-fonte-primaria);
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 33.89px;
+    padding-bottom: 30px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.container_links{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+}
+
+.container_botao{
+    display: block;
+    background-color: var(--var-azul); 
+    border-radius: 8px;
+    padding: 1em;        
+    text-decoration: none;
+    color: var(--var-branco-principal);
+    font-family: var(--var-fonte-primaria);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    
+    
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--var-branco-principal);    
+}
+
+.container_paragrafo{
+    text-align: center;
+    font-family: var(--var-fonte-primaria);
+    font-size: 12px;
+    width: 400;
 }
