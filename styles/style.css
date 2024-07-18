@@ -101,3 +101,9 @@ body {
 .descricao_texto{
     color: var(--cinza-secundario);
 }
+
+/*Aqui começa a terceira*/
+
+.botao__terciario{
+    display: inline-block;
+}
