@@ -114,4 +114,44 @@ body {
     padding: 2em;
 }
 
+/*Aqui começa a quarta*/
+
+.terceiro__container{
+    text-align: center;
+}
+
+.terceiro__container__texto{  
+    font-size: 48px;
+}
+
+.terceiro__container__lista{
+    display: flex;
+   justify-content: center;
+   list-style-type: none;
+   margin: 5em 0;
+}
+
+.terceiro__container__legenda{
+    font-size: 32px;
+}
+
+/*Aqui começou o rodapé*/
+footer{
+    text-align: center;
+}
+
+.container__rodape{
+    display: flex;
+    text-align: center;
+    
+}
+
+.container__rodape__links{
+    display: flex;
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-size: 16px;
+    text-align: center;
+}
+
 
