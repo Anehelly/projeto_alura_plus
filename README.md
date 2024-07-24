@@ -3,6 +3,7 @@
 Projeto desenvolvido durante o curso de HTML e CSS da plataforma Alura.
 
 Ferramentas utilizadas:
+
 HTML
 
 CSS
