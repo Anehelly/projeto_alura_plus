@@ -174,4 +174,41 @@ footer{
     
 }
 
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2em;
+    }
+
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .terceiro__container__lista{
+        display: block;
+    }
+
+    .container__rodape{
+        display: block;
+        text-align: center;
+    }
+
+    .container__rodape__links{
+        display: block;
+    }
+    
+}
 
