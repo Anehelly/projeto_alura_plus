@@ -194,6 +194,10 @@ footer{
     }
 
     .secundario__imagem{
+        width: 40vw;
+    }
+
+    .imagem__terciaria{
         width: 50vw;
     }
 
@@ -209,6 +213,6 @@ footer{
     .container__rodape__links{
         display: block;
     }
-    
+
 }
 
