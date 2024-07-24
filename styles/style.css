@@ -48,6 +48,12 @@ body {
     margin-bottom: 1em;
 }
 
+.container__botao:hover{
+    background-color: var(--botao-azul-efeito);
+    color: black;
+}
+
+
 .botao__secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal)
@@ -137,12 +143,14 @@ body {
 
 /*Aqui começou o rodapé*/
 footer{
-    text-align: center;
+    text-align: center;   
+    margin-bottom: 20px;
 }
 
 .container__rodape{
     display: flex;
     text-align: center;
+    justify-content: center;
     
 }
 
@@ -152,6 +160,18 @@ footer{
     color: var(--branco-principal);
     font-size: 16px;
     text-align: center;
+    margin: 15px;    
+}
+
+.container__rodape__links:hover{
+    color:var(--botao-azul);
+}
+
+
+.container__rodape__texto{
+    font-size: 14px;
+    padding: 10px;
+    
 }
 
 
